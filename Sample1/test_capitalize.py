@@ -1,7 +1,7 @@
 # test_capitalize.py 
 
 def capital_case(x):
-	return x.capialize()
+	return x.capitalize()
 
 def test_capital_case():
-	assert capital_case('semaphone') == 'Semaphore'
+	assert capital_case('semaphone') == 'Semaphone'
