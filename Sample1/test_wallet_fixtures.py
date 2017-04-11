@@ -5,12 +5,12 @@ from wallet import Wallet, InsufficientAmount
 
 @pytest.fixture
 def empty_wallet():
-	# Returns an instance of wallet that is empty
+	'''Returns an instance of wallet that is empty'''
 	return Wallet()
 
 @pytest.fixture
 def wallet():
-	# Returns an instance of wallet with an amount of 20
+	'''Returns an instance of wallet with an amount of 20'''
 	return Wallet(20)
 
 def test_default_initial_amount(empty_wallet):
